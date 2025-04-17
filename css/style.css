@@ -506,12 +506,13 @@ img {
   color: #fff;
 }
 
-.bannertext1 .display-2 a{
+.bannertext1 .display-2{
   color: #fff;
 }
 
 #ca1.owl-carousel .bannerCard {
   opacity: 0;
+  padding: 0 40px;
 }
 #ca1 .owl-item.active .bannerCard {
   animation: 1s 0.5s both animate__fadeInUp;
