@@ -26,6 +26,11 @@
   .therdH {
     font-size: 26px;
   }
+
+  .journeyPart p{
+    margin-top: 8px;
+    font-size: 16px;
+  }
  
 }
 @media (max-width: 991.98px) {
@@ -53,7 +58,12 @@
   .footer .container > .row {
     row-gap: 30px;
   }
-
+  .newBanner.KADS_ProfilePage0 {
+    padding-bottom: 120px;
+}
+.newBanner span.therdH{
+margin-bottom: 0;
+}
   .testimonialBox{
     padding-left: 40px;
     width: 100%;
@@ -72,12 +82,53 @@
     border: 10px solid var(--primary-color);
     box-shadow: 10px 10px 24px 2px rgba(0,0,0,0.25);
   }
-  .hoverImg{
+  .KADS_ProfileDetail .hoverImg{
     overflow: hidden;
     position: relative;
     margin-top: 0;
     border: 15px solid var(--primary-color);
   }
+  .KADS_ProfileDetail .container>.row{
+    flex-direction: column-reverse;
+  }
+
+  .ourPhilosophy{
+    background:var(--lightBgCream) ;
+  }
+
+
+  .journeyPart{
+    padding: 0 12px;
+    padding-left: 12px;
+    /* background-color: var(--lightBgCream); */
+  }
+  .teamPicPart {
+    padding: 40px;
+    background: url('../image/PholoshophiBackground.webp') left/cover no-repeat;
+  }
+  
+  .teamPicPart img{
+    width: 100%;
+  }
+  .gitInPuchTachKendra .container>.row{
+    justify-content: center;
+  }
+  .locationCard {
+    align-self: center;
+    margin-right: 0;
+    width: 70%;
+    min-width: fit-content;
+    margin-bottom: -30px;
+}
+.FormWraper {
+  padding: 12px;
+  padding-top: 40px;
+  padding-left: 12px;
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+  background-color: #6d4b254b;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 }
 @media (max-width: 767.98px) {
   .footer,
@@ -218,6 +269,16 @@
     left: 8px;
     width: calc(100% - 16px);
   }
+
+  .ContactForm  .btnOutline::before{
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  .ContactForm .btnOutline:hover::before{
+    width: 450px;
+    height: 450px;
+    opacity: 1;
+  }
+  
 }
 
 @media (max-width: 575.98px) {

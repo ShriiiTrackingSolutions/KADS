@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KADS Interior Design</title>
+    <!-- Meta Robots (SEO Indexing): -->
+ <meta name="robots" content="index, follow">
+ <meta name="description" content="KADS Interior Design specializes in creating elegant, functional, and inspiring spaces. We bring your dream home or office to life with tailored interior solutions and expert craftsmanship.">
+ <meta name="keywords" content="KADS Interior Design, Interior Designers, Space Planning, Home Renovation, Office Interiors, 3D Visualization, Custom Interiors, Modern Design, Luxury Interiors">
+ <meta name="author" content="KADS Interior Design Studio">
+ 
+ <!-- Open Graph (For Social Media Sharing): -->
+ <meta property="og:title" content="KADS | Transforming Spaces with Style and Purpose">
+ <meta property="og:description" content="Discover how KADS Interior Design crafts personalized, sophisticated spaces for homes and businesses. Your vision, our expertise.">
+ <meta property="og:image" content="https://yourdomain.com/images/og-image.jpg">
+ <meta property="og:url" content="https://yourdomain.com/">
+ <meta property="og:type" content="website">
+ 
+ <!-- Favicon -->
+ <link rel="icon" type="image/x-icon" href="image/KADS_Fevicon.webp" />
+
+    <link fetchpriority="high" rel="preload" href="image/KADS_Logo.webp" as="image" type="image/webp" />
+    <link fetchpriority="high" rel="preload" href="image/ContactFormBackground.webp" as="image" type="image/png" />
+
+    <!-- Preload -->
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="preload" as="style" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://kit.fontawesome.com" />
+    <link rel="dns-prefetch" href="https://kit.fontawesome.com" />
+    <script src="https://kit.fontawesome.com/52ca9e0df4.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    
+    <!-- header start -->
+    <header>
+      <div class="wrapheder">
+        <div id="main-header">
+          <div id="header">
+         
+          </div>
+        </div>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+              // Mobile Navigation Toggle
+              const toggleBtn = document.querySelector(".navToggle");
+              const navbarNav = document.querySelector(".navMenu");
+              const navCloseBtn = document.querySelector(".btn-nav-close");
+          
+              toggleBtn.addEventListener("click", () => {
+                  navbarNav.classList.toggle("active");
+              });
+          
+              navCloseBtn.addEventListener("click", () => {
+                  navbarNav.classList.remove("active");
+              });
+          
+              // Submenu Toggle in Mobile (Auto-close previous)
+              const dropdownToggles = document.querySelectorAll(".navLi > a > .toggleSub");
+              const allSubmenus = document.querySelectorAll(".dropdownList");
+          
+              dropdownToggles.forEach((toggle) => {
+                  toggle.addEventListener("click", function (event) {
+                      event.preventDefault(); // Prevent navigation
+                      event.stopPropagation(); // Prevent event bubbling to parent <a> tag
+                      
+                      const parentLi = this.closest(".navLi");
+                      const submenu = parentLi.querySelector(".dropdownList");
+          
+                      if (submenu) {
+                          // Close all other submenus
+                          allSubmenus.forEach((menu) => {
+                              if (menu !== submenu) {
+                                  menu.classList.remove("open");
+                              }
+                          });
+          
+                          // Toggle the clicked submenu
+                          submenu.classList.toggle("open");
+                      }
+                  });
+              });
+          });
+          
+          </script>
+          
+          
+          
+                             <!-- <li class="navLi">
+                                  <a href="#" class="navLink">Dropdown lavel-1 </a>
+                                  <ul class="dropdownList">
+                                    <li class="navLi">
+                                      <a href="#" class="navLink">Dropdown lavel-2</a>
+                                    </li>
+                                    <li class="navLi">
+                                      <a href="#" class="navLink">Dropdown lavel-2</a>
+                                    </li>
+                                    <li class="navLi">
+                                      <a href="#" class="navLink">Dropdown lavel-2 </a>
+                                      <ul class="dropdownList">
+                                        <li class="navLi">
+                                          <a href="#" class="navLink">Dropdown lavel-3</a>
+                                        </li>
+                                        <li class="navLi">
+                                          <a href="#" class="navLink">Dropdown lavel-3</a>
+                                        </li>
+                                        <li class="navLi">
+                                          <a href="#" class="navLink">Dropdown lavel-3</a>
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li> -->
+      </div>
+    </header>
+
+   
+    <!-- header start -->
+
+<!-- git in Puch tach Kendra start  -->
+    <section id="headBelowContent" class="gitInPuchTachKendra defaultPadding">
+      <div class="container">
+        <div class="row">
+          <div class="locationCard col-auto wow animate__animated animate__fadeInLeft">
+            <h3 class="secH text-center">Contact Us</h3>
+            <div class="callingCard">
+              <div class="call_Icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>
+              </div>
+              <div class="callText">
+<pre class="mb-0">
+Pratapbaug Shopping Center,
+vaibhav Traders,
+Opp.Bharat Petrol Pump,
+Mujmahuda, Vadodara,Gujarat</pre>
+              </div>
+              <a target="_blank" href="https://maps.app.goo.gl/8e5zxepecGP5nJfV8" class="achorAbs"></a>
+            </div>
+            <div class="callingCard">
+              <div class="call_Icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19.95 21q-3.125 0-6.187-1.35T8.2 15.8t-3.85-5.55T3 4.05V3h5.9l.925 5.025l-2.85 2.875q.55.975 1.225 1.85t1.45 1.625q.725.725 1.588 1.388T13.1 17l2.9-2.9l5 1.025V21z"/></svg>
+              </div>
+              <div class="callText">
+                <p>+91 70169 64352</p>
+              </div>
+              <a href="tel:+917016964352" class="achorAbs"></a>
+            </div>
+            <div class="callingCard">
+              <div class="call_Icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"/></svg>
+              </div>
+              <div class="callText">
+                <p>kadsuser@gmail.com</p>
+              </div>
+              <a href="mailto:kadsuser@gmail.com" class="achorAbs"></a>
+            </div>
+          </div>
+          <div class="col-lg ">
+            <div class="FormWraper  wow animate__animated animate__fadeInRight">
+              <h3 class="secH" >Have any questions?</h3>
+              <p class="fourthH">Feel free to ask</p>
+                <form class="row needs-validation ContactForm" id="contactForm" novalidate="">
+                  <div class="col-lg-6">
+                    <div class="col-12">
+                      <label for="validationCustom01" class="form-label">Your Name
+                      </label>
+                      <input type="text" class="form-control" id="validationCustom01" required="">
+                      <div class="invalid-feedback">Please enter your name.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="validationEmail" class="form-label">Your Email
+                      </label>
+                      <input type="text" class="form-control" id="validationEmail">
+                    </div>
+                  </div>
+    
+                  <div class="col-lg-6">
+                    <div class="col-12">
+                      <label for="PhoneNo" class="form-label">Your Mobile Number
+                      </label>
+                      <input type="number" class="form-control" id="PhoneNo" required="">
+                      <div class="invalid-feedback">
+                        Please enter your Mobile Number.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="validationSubject" class="form-label">Subject
+                      </label>
+                      <input type="text" class="form-control" id="validationSubject" required="">
+                      <div class="invalid-feedback">Please enter your Subject.</div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="mb-3">
+                      <label for="validationTextarea" class="form-label">Message
+                      </label>
+                      <textarea class="form-control" rows="4" id="validationTextarea" required=""></textarea>
+                      <div class="invalid-feedback">Please write your message.</div>
+                    </div>
+                  </div>
+    
+                  <!-- Modal Launcher for Mobile -->
+                  <div class="col-12">
+                    <button type="button" class="btn btnOutline mt-4 d-table mx-auto  d-md-none " data-bs-toggle="modal" data-bs-target="#whatsappButton">
+                      Submit
+                    </button>
+                  </div>
+                 
+    
+                
+    
+                  <!-- Submit Button for Desktop -->
+                  <div class="col-12 d-none d-md-table">
+                    <button class="btnOutline mt-4 d-table mx-auto wow animate__animated animate__flipInX" data-wow-duration="1.4s" data-wow-delay="0.4s" id="desktopBtn" type="submit">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+           
+            </div>
+          
+          </div>
+        </div>
+      </div>
+   </section>
+
+   <section class="MapSection defaultPadding ">
+    <div class="container">
+      <div class="mapWrap wow animate__animated animate__bounceIn" data-wow-delay="0.6s">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3691.796585619073!2d73.168397!3d22.285693999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDE3JzA4LjUiTiA3M8KwMTAnMDYuMiJF!5e0!3m2!1sen!2sin!4v1745828657403!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     
+    </div>
+  </section>
+
+
+
+
+
+
+
+     <!-- WhatsApp Modal -->
+     <div class="modal fade" id="whatsappButton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text" id="exampleModalLabel">
+              Select WhatsApp Type
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <div class="options">
+              <button id="whatsappStandard" class="btn option">
+                <img loading="lazy" src="image/whatsapp-icon.png" alt="WhatsApp">
+              </button>
+              <button id="whatsappBusiness" class="btn option">
+                <img loading="lazy" src="image/whatsapp-business-icon.png" alt="WhatsApp Business">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!-- git in Puch tach Kendra end -->
+
+
+
+
+
+    <!-- whatsapp FAB icon -->
+    <div class="fab-container">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=917016964352">
+        <svg xmlns="http://www.w3.org/2000/svg" width="59.54px" height="60px" viewBox="0 0 256 258">
+          <defs>
+            <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
+              <stop offset="0%" stop-color="#1faf38"></stop>
+              <stop offset="100%" stop-color="#60d669"></stop>
+            </linearGradient>
+            <linearGradient id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%">
+              <stop offset="0%" stop-color="#f9f9f9"></stop>
+              <stop offset="100%" stop-color="#fff"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#logosWhatsappIcon0)" d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a123 123 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004"></path>
+          <path fill="url(#logosWhatsappIcon1)" d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416m40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513z"></path>
+          <path fill="#fff" d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561s11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716s-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64"></path>
+        </svg>
+      </a>
+    </div>
+    <!-- Call FAB icon -->
+    <div class="Call-fab-container">
+      <a rel="noopener" target="_blank" href="tel:+91 70169 64352">
+        <img style="height: 60px; width: 60px" src="image/phone-call.png" alt="phone icon" />
+      </a>
+    </div>
+
+
+  <!-- footer section start  -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footWrap defaultPadding">
+        <div class="row">
+          <!-- Company Info -->
+          <div class="col-lg-auto col-sm-6 mb-4 mb-md-0">
+            <a class="footer-brand" href="index.html">
+              <img loading="lazy" src="image/KADS_LogoWhite.webp" alt="KADS">
+            </a>
+            <ul class="contact-info">
+              <li>
+                <a class="locationLink" target="_blank" href="https://maps.app.goo.gl/8e5zxepecGP5nJfV8">
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                  <A1-TF-25>
+                    <pre class="mb-0">
+Pratapbaug Shopping Center,
+vaibhav Traders,
+Opp.Bharat Petrol Pump,
+Mujmahuda, Vadodara,Gujarat
+</pre>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+917016964352">
+                  <i class="fa-solid fa-phone"></i>+91 70169 64352</a>
+              </li>
+              <li>
+                <a class="emailAnchor" href="mailto:kadsuser@gmail.com">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>kadsuser@gmail.com</a>
+              </li>
+            </ul>
+            <div class="social-icons mt-3">
+              <a target="_blank" class="facebook" href="https://www.linkedin.com/">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a class="whatsapp set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=917016964352">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks">
+            <h5 class="fourthH centerStyle">Quick Links</h5>
+            <ul>
+              <li>
+                <a href="index.html">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Home </a>
+              </li>
+              <li>
+                <a href="about.html">
+                  <i class="fa-solid fa-circle-chevron-right"></i>About</a>
+              </li>
+              <li>
+                <a href="WhatWeDo.html">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Service </a>
+              </li>
+              <li>
+                <a href="gallery.html">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Testimonials </a>
+              </li>
+              <li>
+                <a href="contactUs.html">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Contact </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
+            <h5 class="fourthH centerStyle">Explore More</h5>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 1 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 2 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 3 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 4 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 5 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 6 will be here</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
+            <h5 class="fourthH centerStyle">Explore More</h5>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 1 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 2 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 3 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 4 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 5 will be here</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-circle-chevron-right"></i>Link 6 will be here</a>
+              </li>
+              
+            </ul>
+          </div>
+        
+          <!-- Contact Info -->
+        </div>
+      </div>
+     
+    </div>
+    <div class="f-bottom effect">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12">
+            <div class="inner">
+              <div class="copyright text-center"> <span class="year"></span>  All Rights Reserved by KADS | Developed by <a href="https://shriiitrackingsolution.in/" target="_blank">
+                  <b>Shriii&nbsp;Tracking&nbsp;Solution</b>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
+    <script>
+      if (window.innerWidth > 768) {
+        // Desktop and tablet only
+        const wow = new WOW({
+          boxClass:     'wow',
+          animateClass: 'animated',
+          offset:       0,
+          mobile:       false,
+          live:         true
+        });
+        wow.init();
+      } 
+    </script>
+    
+
+    <script>
+        // Header Script
+        // Debounce function to limit how often the event handler executes
+        function debounce(func, delay) {
+          let timeout;
+          return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+          };
+        }
+  
+        // Header scroll handler
+        function handleScroll() {
+          const header = document.getElementById("main-header");
+          const headerOffset = header.offsetTop;
+          const headerHeight = header.offsetHeight;
+          const belowContent = document.getElementById("headBelowContent");
+          const belowContentOffset = belowContent.offsetTop;
+          const belowContentHeight = belowContent.offsetHeight;
+  
+          if (window.pageYOffset > headerOffset + headerHeight + 5) {
+            header.classList.add("sticky-header", "visible");
+            header.classList.remove("headerAnimate");
+  
+          } else {
+            if (
+              window.pageYOffset <
+              belowContentOffset + belowContentHeight + 4
+            ) {
+              header.classList.remove("sticky-header", "visible");
+              header.classList.add("headerAnimate");
+            }
+          }
+        }
+  
+        // Attach debounced scroll and resize events
+        const debouncedHandleScroll = debounce(handleScroll, 0);
+
+  
+        window.addEventListener("scroll", debouncedHandleScroll);
+
+  
+        // Run once on page load to ensure styles are applied correctly
+        window.addEventListener("load", () => {
+
+          debouncedHandleScroll();
+        });
+      </script> 
+
+<script>
+  (() => {
+    "use strict";
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll(".needs-validation");
+
+    // Loop over them and prevent submission
+    Array.from(forms).forEach((form) => {
+      form.addEventListener(
+        "submit",
+        (event) => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+
+          form.classList.add("was-validated");
+        },
+        false
+      );
+    });
+  })();
+
+  $(document).ready(function () {
+    // Debounce function to limit resize frequency
+    function debounce(func, wait) {
+      let timeout;
+      return function (...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), wait);
+      };
+    }
+
+    // Construct WhatsApp Message
+    function constructWhatsAppMessage() {
+      const name = $("#validationCustom01").val();
+      const email = $("#validationEmail").val();
+      const phone = $("#PhoneNo").val();
+      const Subject = $("#validationSubject").val();
+      const message = $("#validationTextarea").val();
+
+      // Construct the WhatsApp message
+      return `Hello, I have an enquiry:\n\nName: ${name}\nEmail: ${email || "Not provided"}\nPhone: ${phone}\nSubject: ${Subject || "Not provided"}\nMessage: ${message || "Not provided"}`;
+    }
+
+    // Form Validation Function
+    function validateForm() {
+      const form = document.querySelector("#contactForm");
+      if (!form.checkValidity()) {
+        form.classList.add("was-validated");
+        return false;
+      }
+      return true;
+    }
+
+    // Clear form fields after submission
+    function clearForm() {
+      const form = document.querySelector("#contactForm");
+      form.reset(); // Reset all form fields
+      form.classList.remove("was-validated"); // Remove validation classes
+    }
+
+    // Initialize logic based on screen size
+    function initializeLogic() {
+      const isMobile = $(window).width() <= 767.98;
+      const phoneNumber = "917016964352"; 
+      const standardWhatsAppUrl = `intent://send?phone=${phoneNumber}&text=`;
+      const businessWhatsAppUrl = `intent://send?phone=${phoneNumber}&text=`;
+
+      if (isMobile) {
+        console.log("Initializing Mobile Logic");
+
+        // Handle WhatsApp Standard Button Click
+        $("#whatsappStandard")
+          .off("click")
+          .on("click", function () {
+            event.preventDefault(); // Stop the form's default behavior
+            if (!validateForm()) return;
+
+            const message = constructWhatsAppMessage();
+            const encodedMessage = encodeURIComponent(message);
+
+            const userAgent =
+              navigator.userAgent || navigator.vendor || window.opera;
+
+            // Check if Android device
+            if (/android/i.test(userAgent)) {
+              // Redirect to WhatsApp app
+              window.location.href = `${standardWhatsAppUrl}${encodedMessage}#Intent;scheme=whatsapp;package=com.whatsapp;end`;
+            } else {
+              // Fallback for web WhatsApp
+              window.location.href = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+            }
+
+            // Clear the form after redirection
+            clearForm();
+          });
+
+        // Handle WhatsApp Business Button Click
+        $("#whatsappBusiness")
+          .off("click")
+          .on("click", function () {
+            event.preventDefault(); // Stop the form's default behavior
+            if (!validateForm()) return;
+
+            const message = constructWhatsAppMessage();
+            const encodedMessage = encodeURIComponent(message);
+
+            const userAgent =
+              navigator.userAgent || navigator.vendor || window.opera;
+
+            // Check if Android device
+            if (/android/i.test(userAgent)) {
+              // Redirect to WhatsApp app
+              window.location.href = `${businessWhatsAppUrl}${encodedMessage}#Intent;scheme=whatsapp;package=com.whatsapp.w4b;end`;
+            } else {
+              // Fallback for web WhatsApp
+              window.location.href = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+            }
+
+            // Clear the form after redirection
+            clearForm();
+          });
+      } else {
+
+        // Handle Desktop Submit Button Click
+        $("#desktopBtn")
+          .off("click")
+          .on("click", function (event) {
+            event.preventDefault(); // Prevent default form submission behavior
+            if (!validateForm()) return;
+
+            const message = constructWhatsAppMessage();
+            const encodedMessage = encodeURIComponent(message);
+
+            // Use WhatsApp Web URL for desktop
+            const whatsappWebUrl = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+            window.open(whatsappWebUrl, "_blank");
+
+            // Clear the form after opening WhatsApp Web
+            clearForm();
+          });
+      }
+    }
+
+    // Initialize logic on page load
+    initializeLogic();
+
+    // Reinitialize logic on window resize with debounce
+    $(window).on(
+      "resize",
+      debounce(function () {
+        initializeLogic();
+      }, 200)
+    );
+  });
+</script>
+    
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

@@ -584,8 +584,8 @@ img {
   margin: auto;
 }
 .footer .exploreLinks1 ul {
-  width: 314px;
-  max-width: 314px !important;
+  width: 255px;
+  max-width: 255px !important;
   text-align: left;
   margin: auto;
 }
@@ -722,8 +722,8 @@ img {
   color: #ffffff;
 }
 .btnOutline:hover::before{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   opacity: 1;
 }
 .btnOutline:active{
@@ -1124,6 +1124,10 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background-size: cover;
   padding-bottom: 160px;
 }
+.newBanner.KADS_projectPage0 {
+  background: linear-gradient(to right, #00000094, #000000a8), url('../image/ProjectsBanner.webp') no-repeat center;
+  background-size: cover;
+}
 
 /* KADS Profile Section start */
 .hoverImg{
@@ -1136,4 +1140,260 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   align-items: center;
   row-gap: 24px;
 }
+
+.footWrap>.row{
+  justify-content: space-between;
+}
 /* KADS Profile Section end */
+
+
+/* our Philosophy section start */
+.ourPhilosophy{
+  background: url('../image/PholoshophiBackground.webp') left/cover no-repeat,var(--lightBgCream) ;
+  background-size: 40% 100%;
+
+}
+.ourPhilosophy .container>.row{
+  row-gap: 24px;
+}
+.ourPhilosophy .container>.row{
+  align-items: center;
+}
+.journeyPart{
+  padding-left: 60px;
+  /* background-color: var(--lightBgCream); */
+}
+.journeyPart p{
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.teamPicPart img{
+  position: relative;
+  width: calc(100% + 40px);
+  z-index: 2;
+}
+/* our Philosophy section end */
+
+
+.team-section {
+  position: relative;
+  min-height: calc(100vh - 111px);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  padding: 50px;
+  background-color: #000; /* Fallback */
+}
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 1;
+}
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+.team-thumbnails {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  width: 70%;
+  z-index: 3;
+}
+.team-thumbnails .item {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.team-thumbnails .item:hover {
+  transform: scale(1.05);
+}
+.team-section .owl-item{
+  overflow: hidden;
+  border-radius: 10px;
+}
+.team-section .owl-item.active:has(.active-item){
+  border: 3px solid #ffffff;
+}
+
+.team-thumbnails img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* git in Puch tach Kendra start */
+.callingCard{
+  display: flex;
+  gap: 8px;
+  position: relative;
+  margin-top: 24px;
+}
+.achorAbs{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.callingCard p{
+  margin-bottom: 0;
+}
+.call_Icon{
+  flex: 0 0 auto;
+  width: auto;
+}
+.callText{
+  flex: 1 0 0%;
+}
+.gitInPuchTachKendra .container>.row{
+  position: relative;
+  justify-content: end;
+}
+.locationCard{
+align-self: center;
+margin-right: -40px;
+padding-top: 30px;
+padding-bottom: 30px;
+backdrop-filter: blur(8px) saturate(120%);
+-webkit-backdrop-filter: blur(8px) saturate(120%);
+background-color: #5e3023a2;
+border: 1px solid rgba(255, 255, 255, 0.5);
+font-size: 18px;
+color: #ffffff;
+z-index: 2;
+}
+.locationCard pre{
+  font-family: 'Libre Franklin';
+  font-size: 18px;
+}
+.FormWraper{
+  padding: 30px ;
+  padding-left: 60px;
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+  background-color: #6d4b254b;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.gitInPuchTachKendra{
+  background: url('../image/ContactFormBackground.webp') center/cover no-repeat;
+}
+ .form-control {
+  color: #212529;
+  background-color: #ffffff62;
+  border: 2px solid #ffffff94;
+}
+.FormWraper{
+  color: #ffffff;
+}
+.FormWraper .secH,.locationCard .secH{
+  color: #ffffff;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #ffffff62;
+  border-color: #ffffff94;
+  box-shadow: none;
+}
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus {
+  box-shadow: none;
+}
+invalid:focus, .was-validated .form-control:invalid:focus {
+  box-shadow: none;
+}
+
+.form-label{
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.ContactForm .btnOutline{
+  color: #ffffff;
+  box-shadow: 0 0 0 2px #ffffff;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.ContactForm  .btnOutline::before{
+  background-color: #dab49dc2;
+  z-index: -1;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.ContactForm  .btnOutline span{
+  position: relative;
+  z-index: 1;
+}
+.ContactForm  .btnOutline:hover{
+  box-shadow: 0 0 0 5px var(--primary-color);
+  color: #ffffff;
+}
+
+.ContactForm  .btnOutline:active{
+  scale: 0.95;
+}
+
+.ContactForm .modal-header {
+  justify-content: center;
+  position: relative;
+}
+.ContactForm .modal {
+  z-index: 2;
+}
+.modal-backdrop{
+  z-index: 1;
+}
+.ContactForm .modal-content{
+color: #000;
+}
+.ContactForm .modal-header .btn-close {
+  margin: 0 !important;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.option {
+  border: none;
+  background: 0 0;
+  cursor: pointer;
+}
+.portfolio-item,
+.spotlight {
+  border: 2px solid var(--lightPink);
+}
+.option img {
+  width: 50px;
+  height: 50px;
+}
+.MapSection{
+  background-color: var(--lightBgCream);
+}
+.mapWrap{
+  border: 8px solid var(--primary-color);
+}
+.MapSection iframe {
+  margin-bottom: -8px;
+  height: 450px;
+}
+
+/* git in Puch tach Kendra end */
+
+/* residential Description section start */
+.projectDescription img{
+  transition: scale 0.3s ease-in-out;
+}
+.projectDescription img:hover{
+  scale: 1.05;
+}
+/* residential Description section end */

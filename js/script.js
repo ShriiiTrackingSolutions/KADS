@@ -5,149 +5,75 @@ document.querySelector(".year").innerHTML= new Date().getFullYear()
 
 
 
+// HEADER
+document.getElementById("header").innerHTML = `
+  <nav class="mynavbar bg-light">
+    <div class="container-fluid header">
+      <a class="brandLogo" href="https://dipengada.com/dga-profile/">
+        <img src="image/KADS_Logo.webp" alt="KADS Logo">
+      </a>
+      <button class="navToggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <ul class="navMenu mx-auto mb-2 mb-lg-0">
+        <li class="nav-close">
+          <button class="btn-nav-close"><span class="close-btn">+</span></button>
+        </li>
+        <li class="navLi"><a class="navLink" href="index.html">Home</a></li>
+        <li class="navLi">
+          <a href="#" class="navLink">About 
+            <span class="toggleSub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16">
+                <path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/>
+              </svg>
+            </span>
+          </a>
+          <ul class="dropdownList">
+            <li class="navLi"><a href="KADS_Profile.html" class="navLink">KADS Profile</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 2</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
+          </ul>
+        </li>
+        <li class="navLi">
+          <a href="#" class="navLink">Services 
+            <span class="toggleSub"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg></span>
+          </a>
+          <ul class="dropdownList">
+            <li class="navLi"><a href="#" class="navLink">link 1</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 2</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
+          </ul>
+        </li>
+        <li class="navLi">
+          <a href="#" class="navLink">Projects 
+            <span class="toggleSub"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg></span>
+          </a>
+          <ul class="dropdownList">
+            <li class="navLi"><a href="residential.html" class="navLink">Residential</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 2</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
+          </ul>
+        </li>
+        <li class="navLi">
+          <a href="#" class="navLink">Recognitions 
+            <span class="toggleSub"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg></span>
+          </a>
+          <ul class="dropdownList">
+            <li class="navLi"><a href="#" class="navLink">link 1</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 2</a></li>
+            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
+          </ul>
+        </li>
+        <li class="navLi"><a href="gallery.html" class="navLink">Testimonials</a></li>
+        <li class="navLi"><a href="contactUs.html" class="navLink">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+`;
 
-document.getElementById("header").innerHTML =
-`       <nav class="mynavbar  bg-light">
-              <div class="container-fluid header">
-                <a class="brandLogo" href="https://dipengada.com/">
-                  <img src="image/KADS_Logo.webp" alt="KADS Logo">
-                </a>
-                <button class="navToggle">
-                  <i class="fa fa-bars" aria-hidden="true"  ></i>
-                </button>
-                <ul class="navMenu mx-auto mb-2 mb-lg-0">
-                  <li class="nav-close">
-                    <button class="btn-nav-close">
-                      <span class="close-btn">+</span>
-                    </button>
-                  </li>
-                  <li class="navLi">
-                    <a class="navLink active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="navLi">
-                    <a href="#" class="navLink">About <span class="toggleSub">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg>
-                      </span>
-                    </a>
-                    <ul class="dropdownList">
-                      <li class="navLi">
-                        <a href="KADS_Profile.html" class="navLink">KADS Profile</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 2</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 3</a>
-                      </li>
-                     
-                    </ul>
-                  </li>
-                  <li class="navLi">
-                    <a href="#" class="navLink">Services <span class="toggleSub">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg>
-                      </span>
-                    </a>
-                    <ul class="dropdownList">
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 1</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 2</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 3</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="navLi">
-                    <a href="#" class="navLink">Projects <span class="toggleSub">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg>
-                      </span>
-                    </a>
-                    <ul class="dropdownList">
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 1</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 2</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 3</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="navLi">
-                    <a href="#" class="navLink">Recognitions <span class="toggleSub">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg>
-                      </span>
-                    </a>
-                    <ul class="dropdownList">
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 1</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 2</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="#" class="navLink">link 3</a>
-                      </li>
-                    </ul>
-                  </li>
-               
-                  <li class="navLi">
-                    <a href="#" class="navLink">Testimonials</a>
-                  </li>
-                  <li class="navLi">
-                    <a href="contactUs.html" class="navLink">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>`;
-
-
-            function highlightActiveLink() {
-                let currentPath = window.location.pathname;
-                let currentFile = currentPath.split('/').pop() || 'index.html';
-                currentFile = currentFile.split('?')[0]; // Strip query params
-              
-                const navLinks = document.querySelectorAll('.navLink');
-              
-                navLinks.forEach(link => {
-                  const href = link.getAttribute('href')?.split('?')[0];
-              
-                  if (!href || href === '#') return; // Skip placeholders
-              
-                  // Compare with current file (supports relative paths like 'contactUs.html')
-                  if (href === currentFile) {
-                    link.classList.add('active');
-              
-                    // If this link is in a dropdown, also activate the parent toggle link
-                    const dropdown = link.closest('.dropdownList');
-                    if (dropdown) {
-                      const parentDropdown = dropdown.closest('.navLi');
-                      const parentLink = parentDropdown?.querySelector('.navLink');
-                      parentLink?.classList.add('active');
-                    }
-              
-                  } else {
-                    link.classList.remove('active');
-                  }
-                });
-              }
-              
-          
-          document.addEventListener('DOMContentLoaded', () => {
-            if (typeof loadContent === 'function') {
-              loadContent(() => {
-                highlightActiveLink();
-              });
-            } else {
-              highlightActiveLink(); // fallback if header is already there
-            }
-          });
-
-          document.getElementById("footer").innerHTML =`
-          <div class="container">
+// FOOTER
+document.getElementById("footer").innerHTML = `
+  <div class="container">
         <div class="footWrap defaultPadding">
           <div class="row">
             <!-- Company Info -->
@@ -290,4 +216,33 @@ Mujmahuda, Vadodara,Gujarat
             </div>
           </div>
         </div>
-      </div> `
+      </div> 
+          `;
+          
+         
+// Active Link Highlighter
+function highlightActiveLink() {
+  const currentFile = (window.location.pathname.split('/').pop() || 'index.html').split('?')[0];
+  document.querySelectorAll('.navLink').forEach(link => {
+    const href = link.getAttribute('href')?.split('?')[0];
+    if (!href || href === '#') return;
+
+    if (href === currentFile) {
+      link.classList.add('active');
+      const dropdown = link.closest('.dropdownList');
+      const parentLink = dropdown?.closest('.navLi')?.querySelector('.navLink');
+      parentLink?.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+}
+
+// DOM Ready
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof loadContent === 'function') {
+    loadContent(() => highlightActiveLink());
+  } else {
+    highlightActiveLink();
+  }
+});
