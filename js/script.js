@@ -50,7 +50,7 @@ document.getElementById("header").innerHTML = `
           </a>
           <ul class="dropdownList">
             <li class="navLi"><a href="residential.html" class="navLink">Residential</a></li>
-            <li class="navLi"><a href="#" class="navLink">link 2</a></li>
+            <li class="navLi"><a href="commercial.html" class="navLink">Commercial</a></li>
             <li class="navLi"><a href="#" class="navLink">link 3</a></li>
           </ul>
         </li>

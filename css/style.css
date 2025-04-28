@@ -1397,3 +1397,47 @@ color: #000;
   scale: 1.05;
 }
 /* residential Description section end */
+
+/* project card section start */
+.projectCardSection{
+  background-color: var(--extraLight);
+}
+.projectCardSection .container>.row{
+  row-gap: 24px;
+}
+.pojectCard {
+  position: relative;
+}
+.pojectCard .projectTittle{
+  padding: 12px ;
+  width: 86%; 
+  position: relative;
+  color: #ffffff;
+  overflow: hidden;
+  margin: auto;
+  margin-top: -24px;
+  text-align: center;
+  backdrop-filter: blur(4px) saturate(120%);
+  -webkit-backdrop-filter: blur(4px) saturate(120%);
+  background-color: #6d4b257a;
+  border: 2px solid rgba(255, 255, 255, 0.486);
+  box-shadow: rgba(0, 0, 0, 0.089) 0px 4px 24px, rgba(0, 0, 0, 0.137) 0px 8px 12px;
+}
+.pojectCard .projectTittle::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent,rgba(255, 255, 255, 0.2), transparent);
+  left: -100%;
+  transition: all 0.65s ease-in-out;
+  z-index: 2;
+}
+
+.pojectCard:hover .projectTittle::before {
+  left: 100%;
+}
+
+
+/* project card section end  */
