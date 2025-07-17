@@ -14,7 +14,7 @@
   .display-2 {
     font-size: 48px;
     font-weight: 600;
-    line-height: 54px;
+    line-height: 52px;
   }
   .secH,
   .therdH {
@@ -31,6 +31,10 @@
     margin-top: 8px;
     font-size: 16px;
   }
+
+.designApproach .fourthH{
+font-size: 16px;
+}
  
 }
 @media (max-width: 991.98px) {
@@ -39,15 +43,15 @@
   .display-2 {
     font-size: 44px;
     font-weight: 600;
-    line-height: 54px;
+    line-height: 48px;
   }
   .secH {
     font-size: 32px;
-    line-height: 38px;
+    line-height: 36px;
   }
   .therdH {
     font-size: 24px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
 
@@ -129,6 +133,9 @@ margin-bottom: 0;
   background-color: #6d4b254b;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
+  .designApproach .textPart{
+  margin-left: 0;
+}
 }
 @media (max-width: 767.98px) {
   .footer,
@@ -143,11 +150,11 @@ margin-bottom: 0;
   }
   .secH {
     font-size: 28px;
-    line-height: 52px;
+    line-height: 32px;
   }
   .therdH {
     font-size: 22px;
-    line-height: 40px;
+    line-height: 26px;
   }
   .defaultPadding {
     padding: 50px 0;
@@ -290,7 +297,7 @@ margin-bottom: 0;
     height: 40px;
     width: 44px;
     background-color: var(--skyblue) !important;
-    line-height: 1.25;
+    line-height: 46px;
     text-transform: capitalize;
     color: var(--lightGrey) !important;
   }
@@ -319,6 +326,9 @@ margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
   }
+  .textPart {
+    padding: 12px;
+}
 }
 @media only screen and (max-height: 539.98px) {
   #ca1.owl-carousel .item {

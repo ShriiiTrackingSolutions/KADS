@@ -1128,6 +1128,18 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background: linear-gradient(to right, #00000094, #000000a8), url('../image/ProjectsBanner.webp') no-repeat center;
   background-size: cover;
 }
+.newBanner.architecturalDesignPage0 {
+  background: linear-gradient(to right, #0000008e, #0000008e), url('../image/ArchitectureDesignBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.interiorArchitecturePage0 {
+  background: linear-gradient(to right, #0000008e, #0000008e), url('../image/InteriorArchitectureBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.UrbanAndSitePlanningPage0 {
+  background: linear-gradient(to right, #0000002f, #0000002f), url('../image/UrbanBanner.webp') no-repeat center;
+  background-size: cover;
+}
 
 /* KADS Profile Section start */
 .hoverImg{
@@ -1172,6 +1184,27 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   position: relative;
   width: calc(100% + 40px);
   z-index: 2;
+}
+
+.ulStyle{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ulStyle li{
+  position: relative;
+  padding-left: 24px;
+  margin-top: 8px;
+}
+.ulStyle li::after{
+  content: "\f1ce";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  font-size: 14px;
+  left: 4px;
+  top:0;
+  border-radius: 50%;
 }
 /* our Philosophy section end */
 
@@ -1441,3 +1474,20 @@ color: #000;
 
 
 /* project card section end  */
+
+
+/* design Approach section start */
+
+.textPart{
+  padding: 40px;
+  background-color: #6d4b25da;
+  color: #ffffff;
+}
+.textPart .secH{
+  color: #ffffff;
+}
+
+.designApproach .textPart{
+  margin-left: -80px;
+}
+/* design Approach section end */
