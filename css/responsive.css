@@ -285,6 +285,11 @@ margin-bottom: 0;
     height: 450px;
     opacity: 1;
   }
+.newBanner.Design-BuildPage0 {
+    background: linear-gradient(to right, #000000ab, #000000ab), url("../image/DesignBuildBanner.webp") no-repeat -550px;
+    background-size: cover;
+}
+
   
 }
 
@@ -329,6 +334,10 @@ margin-bottom: 0;
   .textPart {
     padding: 12px;
 }
+.stylePattern{
+  margin-right: 0;
+}
+
 }
 @media only screen and (max-height: 539.98px) {
   #ca1.owl-carousel .item {

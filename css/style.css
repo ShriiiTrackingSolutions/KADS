@@ -286,13 +286,23 @@ img {
     right: -100%;
     width: 250px;
     height: 100vh;
-    background: var(--accentColour);
+    overflow-y: auto;
+    background: var(--lightBgCream);
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     flex-direction: column;
     padding-top: 60px;
     transition: right 0.4s ease-in-out;
   }
+.navLink{
+  padding: 8px 24px;
+}
 
+.navMenu {
+    gap: 4px;
+}
+.dropdownList .navLink{
+  padding: 8px 24px;
+}
   .navMenu.active {
     right: 0;
   }
@@ -347,7 +357,7 @@ img {
     border: none;
     font-size: 24px;
     cursor: pointer;
-    color: #ffffff;
+    color: #000000;
     transform: rotate(45deg);
   }
 }
@@ -1128,6 +1138,10 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background: linear-gradient(to right, #00000094, #000000a8), url('../image/ProjectsBanner.webp') no-repeat center;
   background-size: cover;
 }
+.newBanner.KADS_projectCommPage0 {
+  background: linear-gradient(to right, #00000094, #000000a8), url('../image/CommercialBanner.webp') no-repeat center;
+  background-size: cover;
+}
 .newBanner.architecturalDesignPage0 {
   background: linear-gradient(to right, #0000008e, #0000008e), url('../image/ArchitectureDesignBanner.webp') no-repeat center;
   background-size: cover;
@@ -1138,6 +1152,14 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .newBanner.UrbanAndSitePlanningPage0 {
   background: linear-gradient(to right, #0000002f, #0000002f), url('../image/UrbanBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.ThreeD_Page0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/3D_Banner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.Design-BuildPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/DesignBuildBanner.webp') no-repeat center;
   background-size: cover;
 }
 
@@ -1440,6 +1462,9 @@ color: #000;
 }
 .pojectCard {
   position: relative;
+}
+.pojectCard .fifthH{
+  text-transform: uppercase;
 }
 .pojectCard .projectTittle{
   padding: 12px ;
