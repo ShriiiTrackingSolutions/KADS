@@ -1162,6 +1162,30 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background: linear-gradient(to right, #000000ab, #000000ab), url('../image/DesignBuildBanner.webp') no-repeat center;
   background-size: cover;
 }
+.newBanner.templeGalleryPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/templebanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.SureshbhaiGalleryPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/SureshbhaiGalleryBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.DevendrabhaiGalleryPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/DevendraBhaiGalleryBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.ShahResidenceGalleryPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/ShahResidenceGalleryBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.SwagatRestaurantPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/SwagatRestBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.AuroVillaPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/AuroVillaTowersBanner.webp') no-repeat center;
+  background-size: cover;
+}
 
 /* KADS Profile Section start */
 .hoverImg{
@@ -1516,3 +1540,48 @@ color: #000;
   margin-left: -80px;
 }
 /* design Approach section end */
+.gallery{
+  background-color: var(--lightBg);
+}
+
+.gallery .container>.row{
+  row-gap: 24px;
+}
+
+
+/* gallery categories start */
+
+.grid-Item {
+   aspect-ratio: 5/4;
+   object-fit: cover;
+   margin-bottom: 24px;
+  }
+
+.grid-Item img{
+  aspect-ratio: 5/4;
+  object-fit: cover;
+}
+
+  .grid-sizer,.grid-Item{
+    width: calc(33.333333% - 24px);                                                                              ;
+  }
+
+.gutter-sizer { 
+  width: 24px;
+}
+
+.grid-item--height2 {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+.grid-item--height2 img{
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+
+.galleryCategories{
+  background-color: var(--lightBg);
+}
+
+
+/* gallery categories end */

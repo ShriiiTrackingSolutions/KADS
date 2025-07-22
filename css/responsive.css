@@ -290,6 +290,14 @@ margin-bottom: 0;
     background-size: cover;
 }
 
+.newBanner.ShahResidenceGalleryPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/ShahResidenceGalleryBanner.webp') no-repeat -120px;
+  background-size: cover;
+}
+.newBanner.SwagatRestaurantPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/SwagatRestBanner.webp') no-repeat -120px;
+  background-size: cover;
+}
   
 }
 
@@ -337,6 +345,14 @@ margin-bottom: 0;
 .stylePattern{
   margin-right: 0;
 }
+
+.grid-sizer,.grid-Item{
+    width: 100%;                                                                              ;
+  }
+
+  .gutter-sizer { 
+    width: 0;
+  }
 
 }
 @media only screen and (max-height: 539.98px) {
