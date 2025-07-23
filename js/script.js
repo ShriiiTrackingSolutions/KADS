@@ -48,7 +48,7 @@ function loadHeaderFooter(callback) {
             <li class="navLi"><a href="UrbanAndSitePlanning.html" class="navLink">Urban & Site Planning</a></li>
             <li class="navLi"><a href="3D_Visualization.html" class="navLink">3D Visualization</a></li>
             <li class="navLi"><a href="Design-BuildAndTurnkeySolutions.html" class="navLink">Design-Build & Turnkey Solutions</a></li>
-            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
+            <li class="navLi"><a href="RenovationAndAdaptiveReuse.html" class="navLink">Renovation & Adaptive Reuse</a></li>
           </ul>
         </li>
         <li class="navLi">
@@ -71,7 +71,7 @@ function loadHeaderFooter(callback) {
             <li class="navLi"><a href="#" class="navLink">link 3</a></li>
           </ul>
         </li>
-        <li class="navLi"><a href="gallery.html" class="navLink">Testimonials</a></li>
+        <li class="navLi"><a href="#" class="navLink">Testimonials</a></li>
         <li class="navLi"><a href="contactUs.html" class="navLink">Contact</a></li>
       </ul>
     </div>

@@ -1162,6 +1162,10 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background: linear-gradient(to right, #000000ab, #000000ab), url('../image/DesignBuildBanner.webp') no-repeat center;
   background-size: cover;
 }
+.newBanner.RenovationAndReusePage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/RenovationAndAdaptiveReuseBanner.webp') no-repeat center;
+  background-size: cover;
+}
 .newBanner.templeGalleryPage0 {
   background: linear-gradient(to right, #000000ab, #000000ab), url('../image/templebanner.webp') no-repeat center;
   background-size: cover;
@@ -1184,6 +1188,18 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .newBanner.AuroVillaPage0 {
   background: linear-gradient(to right, #000000ab, #000000ab), url('../image/AuroVillaTowersBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.southConerPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/southConerBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.KJ_ConsultantPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/KJ_ConsultantBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.BalajiTilePage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/BalajiTileBanner.webp') no-repeat center;
   background-size: cover;
 }
 
@@ -1216,6 +1232,9 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .ourPhilosophy .container>.row{
   align-items: center;
+}
+.ourPhilosophy .journeyPart ol li{
+margin-top: 8px;
 }
 .journeyPart{
   padding-left: 60px;
