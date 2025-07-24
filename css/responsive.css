@@ -354,6 +354,14 @@ margin-bottom: 0;
     width: 0;
   }
 
+.caption {
+
+    bottom: 8px;
+    left: 8px;
+    width: calc(100% - 16px);
+    font-size: 9px;
+}
+
 }
 @media only screen and (max-height: 539.98px) {
   #ca1.owl-carousel .item {
