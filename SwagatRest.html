@@ -250,24 +250,13 @@ $(document).ready(function () {
 
 
 
-<!-- <script>
-$('.grid').masonry({
-  // set itemSelector so .grid-sizer is not used in layout
-  itemSelector: '.grid-Item',
-  // use element for option
-  columnWidth: '.grid-sizer',
-  gutter: '.gutter-sizer',
-  percentPosition: true,
-})    
-</script> -->
-
 <script>
   if (window.innerWidth > 768) {
     // Desktop and tablet only
     const wow = new WOW({
       boxClass:     'wow',
       animateClass: 'animated',
-      offset:       0,
+      offset:       100,
       mobile:       false,
       live:         true
     });

@@ -62,7 +62,7 @@
  <!-- KADS banner start End-->
    
 
- <section id="gallery" class="gallery defaultPadding">
+ <!-- <section id="gallery" class="gallery defaultPadding">
   <div class="container">
    <div class="row justify-content-center">
     <div class="col-lg-3 col-md-4 col-sm-6 wow animate__animated animate__fadeInUp"   data-wow-delay="0s">
@@ -133,7 +133,92 @@
 
    </div>
   </div>
-</section>
+</section> -->
+
+
+ <section  id="gallery" class="galleryCategories defaultPadding">
+   <div class="container">
+     <div class="grid MansonryGallery">
+       <div class="gutter-sizer"></div>
+       <div class="grid-sizer"></div>
+
+       <!-- <div class="grid-Item grid-item--height2 wow animate__animated animate__fadeInUp" >
+          <a class="spotlight" href="image/SwagatRest/SwagatRestHeight2_1.jpg">
+           <img src="image/SwagatRest/Thumbnails/SwagatRestHeight2_1thumb.webp" alt="Temple Gallery" />
+          </a>
+        </div>-->
+     
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple1.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb1.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple2.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb2.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple3.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb3.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple4.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb4.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple5.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb5.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple6.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb6.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple7.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb7.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple8.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb8.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple9.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb9.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple10.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb10.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple11.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb11.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple12.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb12.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+        <div class="grid-Item wow animate__animated animate__fadeInUp">
+          <a class="spotlight" href="image/TempleGallery/Temple13.jpg">
+            <img src="image/TempleGallery/Thumbnails/TempleThumb13.webp" alt="Temple Gallery" />
+          </a>
+        </div>
+     
+      
+
+       </div>
+     </div>
+ </section>
 
 
     <!-- whatsapp FAB icon -->
@@ -294,23 +379,9 @@ Mujmahuda, Vadodara,Gujarat
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="js/spotlight.bundle.js"></script>
 
-
-    <script>
-      if (window.innerWidth > 768) {
-        // Desktop and tablet only
-        const wow = new WOW({
-          boxClass:     'wow',
-          animateClass: 'animated',
-          offset:       0,
-          mobile:       false,
-          live:         true
-        });
-        wow.init();
-      } 
-    </script>
-  
 <script>
   Spotlight.show(gallery, {
     // "fade", "slide", "scale", and "rotate"
@@ -348,6 +419,43 @@ Mujmahuda, Vadodara,Gujarat
     // enables image prefetching
     prefetch: true,
   });
+</script>
+
+<script>
+$(document).ready(function () {
+  const $grid = $('.MansonryGallery');
+  const $items = $grid.find('.grid-Item');
+
+  // Shuffle
+  const shuffled = $items.sort(() => 0.5 - Math.random());
+
+  // Empty and re-append
+  $grid.append(shuffled);
+
+  // Re-init Masonry
+  $grid.masonry({
+    itemSelector: '.grid-Item',
+    columnWidth: '.grid-sizer',
+    gutter: '.gutter-sizer',
+    percentPosition: true
+  });
+});
+</script>
+
+
+
+<script>
+  if (window.innerWidth > 768) {
+    // Desktop and tablet only
+    const wow = new WOW({
+      boxClass:     'wow',
+      animateClass: 'animated',
+      offset:       100,
+      mobile:       false,
+      live:         true
+    });
+    wow.init();
+  } 
 </script>
 
 

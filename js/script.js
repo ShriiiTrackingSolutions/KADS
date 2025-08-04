@@ -34,8 +34,6 @@ function loadHeaderFooter(callback) {
           </a>
           <ul class="dropdownList">
             <li class="navLi"><a href="KADS_Profile.html" class="navLink">KADS Profile</a></li>
-            <li class="navLi"><a href="#" class="navLink">link 2</a></li>
-            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
           </ul>
         </li>
         <li class="navLi">
@@ -58,19 +56,10 @@ function loadHeaderFooter(callback) {
           <ul class="dropdownList">
             <li class="navLi"><a href="residential.html" class="navLink">Residential</a></li>
             <li class="navLi"><a href="commercial.html" class="navLink">Commercial</a></li>
-            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
+            <li class="navLi"><a href="#" class="navLink">Coming Soon</a></li>
           </ul>
         </li>
-        <li class="navLi">
-          <a href="#" class="navLink">Recognitions 
-            <span class="toggleSub"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg></span>
-          </a>
-          <ul class="dropdownList">
-            <li class="navLi"><a href="#" class="navLink">link 1</a></li>
-            <li class="navLi"><a href="#" class="navLink">link 2</a></li>
-            <li class="navLi"><a href="#" class="navLink">link 3</a></li>
-          </ul>
-        </li>
+        
         <li class="navLi"><a href="#" class="navLink">Testimonials</a></li>
         <li class="navLi"><a href="contactUs.html" class="navLink">Contact</a></li>
       </ul>
