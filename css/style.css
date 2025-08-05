@@ -1210,6 +1210,66 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   background: linear-gradient(to right, #000000ab, #000000ab), url('../image/RavibhaiManjalpurBanner.webp') no-repeat center;
   background-size: cover;
 }
+.newBanner.AkashbhaiPatelPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/AkashbhaiPatelBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.AkotaPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/AkotaBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.AmanBhavsarPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/AmanBhavsarBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.ChandrakantAgrawalPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/ChandrakantAgrawalBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.DharmendrabhaiAgrawalPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/DharmendrabhaiAgrawalBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.GovindaRestaurantPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/GovindaResturnatBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.HanifBhaiPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/HanifBhaiBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.JayeshBhaiPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/JayeshBhaiBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.MaheshProvisionalStorePage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/MaheshProvisonalSotreBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.PankajAgrawalPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/PankajAgrawalBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.ParagbhaiSoniPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/ParagbhaiSoniBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.RutuAgrawalPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/RutuAgrawalBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.SanjaybhaiAgrawalPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/SanjaybhaiAgrawalBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.SunilAgrawalPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/SunilAgrawalBanner.webp') no-repeat center;
+  background-size: cover;
+}
+.newBanner.SureshAgrawalPage0 {
+  background: linear-gradient(to right, #000000ab, #000000ab), url('../image/SureshAgrawalBanner.webp') no-repeat center;
+  background-size: cover;
+}
 
 /* KADS Profile Section start */
 .hoverImg{
