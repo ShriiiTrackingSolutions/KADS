@@ -69,9 +69,10 @@
   --lightGrey: #919191;
   --fade: #C08552;
   --lightBg: #DAB49D;
+  --lightBgCream: #e5e5e5;
   --extraLight:#f3ecea;
-  --lightBgCream: #dfdfdf;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -857,7 +858,7 @@ transition: color 0.6s ease-in-out 0.2s;
 } */
 
 .testimonials{
-  background-color: var(--lightBgCream);
+  background: url('../image/BackGroundByClient.webp');
 }
 .testimonialBox{
   position: relative;
@@ -895,6 +896,8 @@ transition: color 0.6s ease-in-out 0.2s;
   aspect-ratio: 1;
   object-fit: cover;
 }
+
+
 
 .testimonials .owl-nav {
   position: absolute;
@@ -1367,8 +1370,8 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 /* our Philosophy section start */
 .ourPhilosophy{
-  background: url('../image/PholoshophiBackground.webp') left/cover no-repeat,var(--lightBgCream) ;
-  background-size: 40% 100%;
+  background: url('../image/PholoshophiBackground.webp') left/cover no-repeat, url('../image/BackGroundByClient.webp') right no-repeat  ;
+  background-size: 40% 100%, cover;
 
 }
 .ourPhilosophy .container>.row{
@@ -1619,7 +1622,7 @@ color: #000;
   height: 50px;
 }
 .MapSection{
-  background-color: var(--lightBgCream);
+  background: url('../image/BackGroundByClient.webp') center/cover no-repeat;
 }
 .mapWrap{
   border: 8px solid var(--primary-color);
@@ -1642,7 +1645,7 @@ color: #000;
 
 /* project card section start */
 .projectCardSection{
-  background-color: var(--extraLight);
+  background: url('../image/BackGroundByClient.webp') center/cover no-repeat;
 }
 .projectCardSection .container>.row{
   row-gap: 24px;
@@ -1748,3 +1751,29 @@ color: #000;
 
 
 /* gallery categories end */
+
+
+
+.projectCardSection  .owl-dots {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.projectCardSection  .owl-dots button.owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  background: #00000079;
+  margin: 4px 0;
+}
+.projectCardSection  .owl-dots button.owl-dot.active {
+  background-color: var(--primary-color);
+}
+.projectCardSection  .owl-dots button.owl-dot:focus {
+  outline: 0;
+}

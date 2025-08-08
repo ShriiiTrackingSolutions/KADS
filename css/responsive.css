@@ -6,6 +6,7 @@
   --fade: #C08552;
   --lightBg: #DAB49D;
   --lightBgCream: #dfdfdf;
+  --extraLight:#f3ecea;
 }
 @media (max-width: 1399.98px) {
   
@@ -97,7 +98,7 @@ margin-bottom: 0;
   }
 
   .ourPhilosophy{
-    background:var(--lightBgCream) ;
+    background: url('../image/BackGroundByClient.webp' ) center/cover no-repeat;
   }
 
 
