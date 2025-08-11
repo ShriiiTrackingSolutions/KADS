@@ -56,7 +56,7 @@ function loadHeaderFooter(callback) {
           <ul class="dropdownList">
             <li class="navLi"><a href="residential.html" class="navLink">Residential</a></li>
             <li class="navLi"><a href="commercial.html" class="navLink">Commercial</a></li>
-            <li class="navLi"><a href="#" class="navLink">Coming Soon</a></li>
+            <li class="navLi"><a href="upcomingProjects.html" class="navLink">Upcoming Projects</a></li>
           </ul>
         </li>
         

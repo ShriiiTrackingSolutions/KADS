@@ -29,6 +29,7 @@
     <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
     <link rel="preload" as="style" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -111,80 +112,81 @@
  <!-- project card section start -->
 <section class="projectCardSection defaultPadding">
     <div class="container">
-   <div class="row">
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"   data-wow-delay="0s">
-        <img loading="lazy" src="image/Temple.webp" alt="TEMPLE">
-         <div class="projectTittle">
-            <h3 class="fifthH">TEMPLE</h3>
-         </div>
-         <a href="templeGallery.html" class="achorAbs"></a>
-      </div> 
-    </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"  data-wow-delay="0.2s">
-        <img loading="lazy" src="image/SURESHBHAI.webp" alt="SURESHBHAI">
-         <div class="projectTittle">
-            <h3 class="fifthH">SURESHBHAI</h3>
-         </div>
-         <a href="SURESHBHAIGallery.html" class="achorAbs"></a>
-      </div> 
-    </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"  data-wow-delay="0.4s">
-        <img loading="lazy" src="image/DEVENDRABHAI.webp" alt="DEVENDRABHAI">
-         <div class="projectTittle">
-            <h3 class="fifthH">DEVENDRABHAI</h3>
-         </div>
-         <a href="DevendraBhaiGallery.html" class="achorAbs"></a>
-      </div> 
-    </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"  data-wow-delay="0.6s">
-        <img loading="lazy" src="image/PATELRESIDENCE.webp" alt="PATEL RESIDENCE">
-         <div class="projectTittle">
-            <h3 class="fifthH">PATEL RESIDENCE</h3>
-         </div>
-         <a href="PatelResidence.html" class="achorAbs"></a>
-      </div> 
-    </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"  data-wow-delay="0.8s">
-        <img loading="lazy" src="image/SHAHRESIDENCE.webp" alt="SHAH RESIDENCE">
-         <div class="projectTittle">
-            <h3 class="fifthH">SHAH RESIDENCE</h3>
-         </div>
-         <a href="ShahResidence.html" class="achorAbs"></a>
-      </div> 
-    </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"  data-wow-delay="1s">
-        <img loading="lazy" src="image/Townhouses.webp" alt="Townhouses">
-         <div class="projectTittle">
-            <h3 class="fifthH">Townhouses</h3>
-         </div>
-         <a href="#" class="achorAbs"></a>
-      </div> 
-    </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"  data-wow-delay="1.2s">
-        <img loading="lazy" src="image/Duplexes.webp" alt="Duplexes">
-         <div class="projectTittle">
-            <h3 class="fifthH">Duplexes</h3>
-         </div>
-         <a href="#" class="achorAbs"></a>
-      </div> 
-    </div>
-    <div class="col-xl-3 col-lg-4 col-md-6 ">
-      <div class="pojectCard wow animate__animated animate__fadeInUp"  data-wow-delay="1.4s">
-        <img loading="lazy" src="image/Penthouses.webp" alt="Penthouses">
-         <div class="projectTittle">
-            <h3 class="fifthH">Penthouses</h3>
-         </div>
-         <a href="#" class="achorAbs"></a>
-      </div> 
-    </div>
-   </div>
+      <div class="owl-carousel owl-theme" id="projectCarousel">
+        <div class="item">
+          <div class="pojectCard" >
+            <img loading="lazy" src="image/Temple.webp" alt="TEMPLE">
+              <div class="projectTittle">
+                <h3 class="fifthH">TEMPLE</h3>
+              </div>
+              <a href="templeGallery.html" class="achorAbs"></a>
+          </div> 
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+            <img loading="lazy" src="image/SURESHBHAI.webp" alt="SURESHBHAI">
+              <div class="projectTittle">
+                <h3 class="fifthH">SURESHBHAI</h3>
+              </div>
+              <a href="SURESHBHAIGallery.html" class="achorAbs"></a>
+          </div>           
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+            <img loading="lazy" src="image/DEVENDRABHAI.webp" alt="DEVENDRABHAI">
+            <div class="projectTittle">
+                <h3 class="fifthH">DEVENDRABHAI</h3>
+            </div>
+            <a href="DevendraBhaiGallery.html" class="achorAbs"></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+            <img loading="lazy" src="image/PATELRESIDENCE.webp" alt="PATEL RESIDENCE">
+            <div class="projectTittle">
+                <h3 class="fifthH">PATEL RESIDENCE</h3>
+            </div>
+            <a href="PatelResidence.html" class="achorAbs"></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+            <img loading="lazy" src="image/SHAHRESIDENCE.webp" alt="SHAH RESIDENCE">
+            <div class="projectTittle">
+                <h3 class="fifthH">SHAH RESIDENCE</h3>
+            </div>
+            <a href="ShahResidence.html" class="achorAbs"></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+            <img loading="lazy" src="image/Townhouses.webp" alt="Townhouses">
+            <div class="projectTittle">
+                <h3 class="fifthH">Townhouses</h3>
+            </div>
+            <a href="#" class="achorAbs"></a>
+          </div> 
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+            <img loading="lazy" src="image/Duplexes.webp" alt="Duplexes">
+            <div class="projectTittle">
+                <h3 class="fifthH">Duplexes</h3>
+            </div>
+            <a href="#" class="achorAbs"></a>
+          </div> 
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+            <img loading="lazy" src="image/Penthouses.webp" alt="Penthouses">
+            <div class="projectTittle">
+                <h3 class="fifthH">Penthouses</h3>
+            </div>
+            <a href="#" class="achorAbs"></a>
+          </div> 
+        </div>
+      </div>
+
     </div>
 </section>
  <!-- project card section end -->
@@ -349,6 +351,7 @@ Mujmahuda, Vadodara,Gujarat
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
 
@@ -366,7 +369,32 @@ Mujmahuda, Vadodara,Gujarat
       } 
     </script>
     
-
+<script>
+  $("#projectCarousel").owlCarousel({
+  loop: true,
+  margin: 24,
+  nav: false,
+  dots: true,
+  dotsEach: 1,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    767.98: {
+      items: 2
+    },
+    991.98: {
+      items: 3
+    },
+    1199.98: {
+      items: 4
+    },
+  },
+  });
+</script>
 
     <script defer src="js/script.js"></script>
   </body>
