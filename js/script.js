@@ -70,7 +70,7 @@ function loadHeaderFooter(callback) {
         <div class="footWrap defaultPadding">
           <div class="row">
             <!-- Company Info -->
-            <div class="col-lg-auto col-sm-6 mb-4 mb-md-0">
+            <div class="col-lg-auto col-sm-6 mb-4 mb-lg-0">
               <a class="footer-brand" href="index.html">
                 <img loading="lazy" src="image/KADS_LogoWhite.webp" alt="KADS">
               </a>
@@ -105,7 +105,7 @@ Mujmahuda, Vadodara,Gujarat
                 </a>
               </div>
             </div>
-            <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks">
+            <div class="col-sm-6 col-lg-auto mb-4 mb-lg-0 exploreLinks">
               <h5 class="fourthH centerStyle">Quick Links</h5>
               <ul>
                 <li>
@@ -113,15 +113,23 @@ Mujmahuda, Vadodara,Gujarat
                     <i class="fa-solid fa-circle-chevron-right"></i>Home </a>
                 </li>
                 <li>
-                  <a href="about.html">
+                  <a href="KADS_Profile.html">
                     <i class="fa-solid fa-circle-chevron-right"></i>About</a>
                 </li>
                 <li>
-                  <a href="WhatWeDo.html">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Service </a>
+                  <a href="residential.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Residential </a>
                 </li>
                 <li>
-                  <a href="gallery.html">
+                  <a href="commercial.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Commercial </a>
+                </li>
+                <li>
+                  <a href="upcomingProjects.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>upcoming Projects </a>
+                </li>
+                <li>
+                  <a href="Testimonials.html">
                     <i class="fa-solid fa-circle-chevron-right"></i>Testimonials </a>
                 </li>
                 <li>
@@ -130,62 +138,29 @@ Mujmahuda, Vadodara,Gujarat
                 </li>
               </ul>
             </div>
-            <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
+            <div class="col-sm-6 col-lg-auto mb-4 mb-lg-0 exploreLinks1">
               <h5 class="fourthH centerStyle">Explore More</h5>
+
               <ul>
                 <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 1 will be here</a>
+                  <a href="architecturalDesign.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Architectural Design</a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 2 will be here</a>
+                  <a href="interiorArchitecture.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Interior Architecture</a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 3 will be here</a>
+                  <a href="UrbanAndSitePlanning.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Urban Site Planning</a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 4 will be here</a>
+                  <a href="Design-BuildAndTurnkeySolutions.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Design-Build Turnkey Solutions</a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 5 will be here</a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 6 will be here</a>
-                </li>
-                
-              </ul>
-            </div>
-            <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
-              <h5 class="fourthH centerStyle">Explore More</h5>
-              <ul>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 1 will be here</a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 2 will be here</a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 3 will be here</a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 4 will be here</a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 5 will be here</a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Link 6 will be here</a>
+                  <a href="RenovationAndAdaptiveReuse.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Renovation &amp; Adaptive Reuse</a>
                 </li>
                 
               </ul>
