@@ -380,6 +380,15 @@ margin-bottom: 0;
     font-size: 9px;
 }
 
+.customerName .therdH {
+  font-size: 17px;
+}
+
+.testimonials .owl-nav {
+    right: 50%;
+    transform: translateX(50%);
+}
+
 }
 @media only screen and (max-height: 539.98px) {
   #ca1.owl-carousel .item {
