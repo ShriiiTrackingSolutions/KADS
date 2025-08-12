@@ -65,20 +65,67 @@
  <!-- KADS banner start End-->
 
  <!-- project card section start -->
+
 <section class="projectCardSection defaultPadding">
-  <div class="container">
-    <div class="row">
-        <div class="col-xl-3 col-lg-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-            <div class="pojectCard">
-                <img loading="lazy" src="image/BALAJI_TILE.webp" alt="BALAJI TILE">
-                <div class="projectTittle">
-                    <h3 class="fifthH">Balaji Tiles (Dhule)</h3>
-                </div>
-                <a href="UrbanProject1.html" class="achorAbs"></a>
-            </div>
+    <div class="container">
+      <div class="owl-carousel owl-theme" id="projectCarousel">
+        <div class="item">
+          <div class="pojectCard" >
+        <img loading="lazy" src="image/BALAJI_TILE.webp" alt="BALAJI TILE">
+         <div class="projectTittle">
+            <h3 class="fifthH">Balaji Tiles (Dhule)</h3>
+         </div>
+         <a href="UrbanProject1.html" class="achorAbs"></a>
+      </div> 
         </div>
+        <div class="item">
+          <div class="pojectCard">
+        <img loading="lazy" src="image/Temple.webp" alt="TEMPLE">
+         <div class="projectTittle">
+            <h3 class="fifthH">Temple</h3>
+         </div>
+         <a href="UrbanProject2.html" class="achorAbs"></a>
+      </div> 
+        </div>
+        <div class="item">
+          <div class="pojectCard">
+        <img loading="lazy" src="image/AmanBhavsar.webp" alt="Aman Bhavsar">
+         <div class="projectTittle">
+            <h3 class="fifthH">Aman Bhavsar</h3>
+         </div>
+         <a href="ArchitecturalDesignProject3.html" class="achorAbs"></a>
+      </div>
+        </div>
+        <div class="item">
+ <div class="pojectCard">
+        <img loading="lazy" src="image/DharmendrabhaiAgrawal.webp" alt="Dharmendra Bhai Agrawal">
+         <div class="projectTittle">
+            <h3 class="fifthH">Dharmendra Agra.</h3>
+         </div>
+         <a href="ArchitecturalDesignProject5.html" class="achorAbs"></a>
+      </div>
+        </div>
+        <div class="item">
+ <div class="pojectCard">
+        <img loading="lazy" src="image/SunilAgrawal.webp" alt="Sunil Agrawal">
+         <div class="projectTittle">
+            <h3 class="fifthH">Sunil Agrawal</h3>
+         </div>
+         <a href="ArchitecturalDesignProject14.html" class="achorAbs"></a>
+      </div> 
+        </div>
+        <div class="item">
+<div class="pojectCard">
+        <img loading="lazy" src="image/SureshAgrawal.webp" alt="Suresh Agrawal">
+         <div class="projectTittle">
+            <h3 class="fifthH">Suresh Agrawal</h3>
+         </div>
+         <a href="ArchitecturalDesignProject15.html" class="achorAbs"></a>
+      </div>
+        </div>
+      </div>
+
     </div>
-  </div>
 </section>
  <!-- project card section end -->
 
@@ -99,6 +146,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
 
@@ -115,6 +163,33 @@
         wow.init();
       } 
     </script>
+
+ <script>
+  $("#projectCarousel").owlCarousel({
+  loop: true,
+  margin: 24,
+  nav: false,
+  dots: true,
+  dotsEach: 1,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    767.98: {
+      items: 2
+    },
+    991.98: {
+      items: 3
+    },
+    1199.98: {
+      items: 4
+    },
+  },
+  });
+</script>
 
 
 

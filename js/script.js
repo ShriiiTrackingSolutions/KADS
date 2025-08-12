@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function loadHeaderFooter(callback) {
   document.getElementById("header").innerHTML = `<nav class="mynavbar bg-light">
     <div class="container-fluid header">
-      <a class="brandLogo" href="https://dipengada.com/dga-profile/">
+      <a class="brandLogo" href="index.html">
         <img src="image/KADS_Logo.webp" alt="KADS Logo">
       </a>
       <button class="navToggle">
@@ -44,7 +44,7 @@ function loadHeaderFooter(callback) {
             <li class="navLi"><a href="architecturalDesign.html" class="navLink">Architectural Design</a></li>
             <li class="navLi"><a href="interiorArchitecture.html" class="navLink">Interior Architecture</a></li>
             <li class="navLi"><a href="UrbanAndSitePlanning.html" class="navLink">Urban & Site Planning</a></li>
-            <li class="navLi"><a href="3D_Visualization.html" class="navLink">3D Visualization</a></li>
+            <!--<li class="navLi"><a href="3D_Visualization.html" class="navLink">3D Visualization</a></li>-->
             <li class="navLi"><a href="Design-BuildAndTurnkeySolutions.html" class="navLink">Design-Build & Turnkey Solutions</a></li>
             <li class="navLi"><a href="RenovationAndAdaptiveReuse.html" class="navLink">Renovation & Adaptive Reuse</a></li>
           </ul>
@@ -60,7 +60,7 @@ function loadHeaderFooter(callback) {
           </ul>
         </li>
         
-        <li class="navLi"><a href="#" class="navLink">Testimonials</a></li>
+        <li class="navLi"><a href="Testimonials.html" class="navLink">Testimonials</a></li>
         <li class="navLi"><a href="contactUs.html" class="navLink">Contact</a></li>
       </ul>
     </div>

@@ -36,6 +36,14 @@
 .designApproach .fourthH{
 font-size: 16px;
 }
+
+.reviewvText {
+    font-size: 18px;
+}
+
+.clientName {
+    font-size: 20px;
+}
  
 }
 @media (max-width: 991.98px) {
@@ -137,6 +145,15 @@ margin-bottom: 0;
   .designApproach .textPart{
   margin-left: 0;
 }
+.ClientsTestiMonials .row_reverse{
+  flex-direction: column-reverse;
+}
+.ClientsTestiMonials .treatImgWrap{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }
 @media (max-width: 767.98px) {
   .footer,
