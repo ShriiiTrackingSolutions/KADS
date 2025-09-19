@@ -6,6 +6,8 @@
   font-display: swap;
 }
 
+/* #bb6944c4 */
+
 @font-face {
   font-family: 'Libre Franklin';
   src: url('../fonts/LibreFranklin-Bold.woff2') format('woff2');
@@ -224,7 +226,7 @@ img {
 .navLink {
   font-family: 'Athena';
   text-decoration: none;
-  color: var(--accentColour);
+  color: var(--lightBgCream);
   font-size: 18px;
   font-weight: bold;
   padding: 20px 8px;
@@ -232,7 +234,7 @@ img {
   transition: color 0.3s ease-in-out;
 }
 .bg-light {
-  background-color: var(--lightBgCream) !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .navLink:hover{
@@ -299,7 +301,7 @@ img {
     width: 250px;
     height: 100vh;
     overflow-y: auto;
-    background: var(--lightBgCream);
+    background: var(--secondary-color);
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
     flex-direction: column;
     padding-top: 60px;
@@ -1526,7 +1528,7 @@ padding-top: 30px;
 padding-bottom: 30px;
 backdrop-filter: blur(8px) saturate(120%);
 -webkit-backdrop-filter: blur(8px) saturate(120%);
-background-color: #5e3023a2;
+background-color: #b75a316e;
 border: 1px solid rgba(255, 255, 255, 0.5);
 font-size: 18px;
 color: #ffffff;
@@ -1712,7 +1714,7 @@ color: #000;
 
 .textPart{
   padding: 40px;
-  background-color: #6d4b25da;
+  background-color: #bb6944c4;
   color: #ffffff;
 }
 .textPart .secH{
