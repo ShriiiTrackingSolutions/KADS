@@ -62,7 +62,7 @@
 
 /* Show tooltip on hover */
 
-:root {
+/* :root {
   --primary-color: #6d4b25;
   --secondary-color: #5E3023;
   --accentColour: #895737;
@@ -71,6 +71,16 @@
   --lightBg: #DAB49D;
   --lightBgCream: #e5e5e5;
   --extraLight:#f3ecea;
+} */
+:root {
+  --primary-color: #D97B59;
+  --secondary-color: #174D3F;
+  --accentColour: #267E66;
+  --lightGrey: #919191;
+  --fade: #C08552;
+  --lightBg: #ECAB93;
+  --lightBgCream: #cbede4;
+  --extraLight: #ffecea;
 }
 
 * {
@@ -184,7 +194,7 @@ img {
   z-index: 1055;
 }
 .wrapheder{
-  min-height: 111px;
+  min-height: 90.66px;
   background-color: var(--lightBgCream);
 }
 
@@ -217,7 +227,7 @@ img {
   color: var(--accentColour);
   font-size: 18px;
   font-weight: bold;
-  padding: 34px 8px;
+  padding: 20px 8px;
   display: block;
   transition: color 0.3s ease-in-out;
 }
@@ -236,12 +246,12 @@ img {
   display: inline-block;
   margin-right: 45px;
   padding-right: 10px;
-  width: 108px;
+  width: 214px;
 }
 
 
 .dropdownList .navLink{
-  color: var(--lightBg);
+  color: var(--secondary-color);
   padding: 14px 20px;
   display: block;
   border-bottom: 1px solid var(--grey);
@@ -250,8 +260,8 @@ img {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .dropdownList .navLink:hover{
-  background-color: var(--lightBgCream);
-    color: var(--secondary-color);
+  background-color: var(--secondary-color);
+    color: #ffffff;
 }
 
 /* Dropdown Styling */
@@ -259,7 +269,7 @@ img {
   position: absolute;
   top: 100%;
   left: 0;
-  background: var(--primary-color);
+  background: var(--lightBg);
   list-style: none;
   min-width: 200px;
   opacity: 0;
@@ -554,12 +564,11 @@ img {
   bottom: 94px;
 }
 .footer {
-  background: 0 0 / cover var(--primary-color);
+  background: 0 0 / cover var(--secondary-color);
 }
 .footer .footer-brand {
   display: block;
-  width: 115px;
-  min-width: 115px;
+  width: 204px;
   margin: auto;
   margin-bottom: 16px;
 }
@@ -678,6 +687,7 @@ img {
 }
 .f-bottom {
   background: var(--secondary-color);
+  border-top: 2px solid var(--accentColour);
   padding: 12px 0;
   color: #fff;
 }
@@ -810,10 +820,16 @@ margin-top: 16px;
 transition: color 0.6s ease-in-out 0.2s;
 }
 .WhyChooseCard:hover .therdH{
-  color: var(--lightBgCream);
+  color: var(--secondary-color);
 }
 .WhyChooseCard:hover .iconWhy{
-  color: var(--lightBgCream);
+  color: var(--secondary-color);
+}
+.WhyChooseCard p{
+  transition: color 0.6s ease-in-out 0.2s;
+}
+.WhyChooseCard:hover p{
+  color: #ffffff;
 }
 .WhyChooseCard .iconWhy{
   color: var(--fade);
@@ -1568,7 +1584,7 @@ invalid:focus, .was-validated .form-control:invalid:focus {
 }
 
 .ContactForm  .btnOutline::before{
-  background-color: #dab49dc2;
+  background-color: var(--accentColour);
   z-index: -1;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
 }
