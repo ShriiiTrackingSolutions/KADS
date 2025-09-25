@@ -1,12 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://kads.co.in/index.html</loc>
+<lastmod>2025-09-22T09:49:47+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://kads.co.in/contactUs.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/KADS_Profile</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://kads.co.in/architecturalDesign.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/interiorArchitecture.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/UrbanAndSitePlanning.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/Design-BuildAndTurnkeySolutions.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/RenovationAndAdaptiveReuse.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/residential.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/commercial.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/upcomingProjects.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://kads.co.in/Testimonials.html</loc>
+<lastmod>2025-09-22T09:50:17+00:00</lastmod>
+<priority>0.50</priority>
+</url>
 </urlset>

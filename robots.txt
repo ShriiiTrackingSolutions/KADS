@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://Your_Website/sitemap.xml
+Sitemap: https://kads.co.in/index.html/sitemap.xml
